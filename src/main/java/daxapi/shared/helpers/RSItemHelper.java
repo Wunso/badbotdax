@@ -20,12 +20,7 @@ import java.util.stream.Collectors;
 public class RSItemHelper {
 
     public static boolean click(String itemNameRegex, String itemAction){
-        return click(new Filter<RSItem>() {
-            @Override
-            public boolean test(RSItem item) {
-                return getItemName(item).matches(itemNameRegex) && Arrays.stream(getItemActions(item)).anyMatch(s -> s.equals(itemAction));
-            }
-        }, itemAction);
+        return click(item -> getItemName(item).matches(itemNameRegex) && Arrays.stream(getItemActions(item)).anyMatch(s -> s.equals(itemAction)), itemAction);
     }
 
     public static boolean clickMatch(RSItem item, String regex){
