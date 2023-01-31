@@ -67,6 +67,7 @@ public class DaxWalker implements Loggable {
             WaitFor.milliseconds(500, 1200);
         }
         WalkerTile start = new WalkerTile(new WalkerTile(Web.methods.players.getMyPlayer().getLocation()));
+        getInstance().log(Level.INFO, start.toString());
         if (start.equals(destination)) {
             return true;
         }

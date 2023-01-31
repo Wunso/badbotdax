@@ -151,8 +151,10 @@ public class WalkerEngine implements Loggable{
                         if (isDestinationClose(destination) || (walkingTile != null ? AccurateMouse.clickMinimap(walkingTile) : clickMinimap(destination))) {
                             log("Handling Object...");
                             if (!PathObjectHandler.handle(destinationDetails, path)) {
+                                log("Failed attempt");
                                 failedAttempt();
                             } else {
+                                log("Successful attempt");
                                 successfulAttempt();
                             }
                             break;
