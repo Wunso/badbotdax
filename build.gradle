@@ -59,7 +59,7 @@ dependencies {
     }
 
     implementation group: 'net.sf.jopt-simple', name:'jopt-simple', version: '5.0.4'
-    implementation 'com.github.Wunso:badbot:121cf141e1'
+    implementation 'com.github.Wunso:badbot:7dec101892'
 }
 
 tasks.withType(JavaCompile) {
