@@ -11,7 +11,7 @@ import daxapi.walkerengine.localpathfinding.Reachable;
 import daxapi.walkerengine.realtimecollision.RealTimeCollisionTile;
 import net.runelite.cache.definitions.ObjectDefinition;
 import net.runelite.osrsbb.internal.wrappers.Filter;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.RSArea;
 import net.runelite.osrsbb.wrappers.RSItem;
@@ -359,14 +359,14 @@ public class PathObjectHandler implements Loggable {
             }
             if (current.getNextTile() != null){
                 PathAnalyzer.DestinationDetails hoverDetails = PathAnalyzer.furthestReachableTile(path, current.getNextTile());
-                if (hoverDetails != null && hoverDetails.getDestination() != null && hoverDetails.getDestination().getWalkerTile().distanceTo(new WalkerTile(new WalkerTile(Web.methods.players.getMyPlayer().getLocation()))) > 7 && !strongholdDoor && new WalkerTile(new WalkerTile(Web.methods.players.getMyPlayer().getLocation())).distanceTo(object) <= 2){
+                if (hoverDetails != null && hoverDetails.getDestination() != null && hoverDetails.getDestination().getWalkerTile().distanceTo(new WalkerTile(new WalkerTile(Web.methods.players.getMyPlayer().getLocation()))) > 7 && !strongholdDoor && new WalkerTile(new WalkerTile(Web.methods.players.getMyPlayer().getLocation())).distanceTo(object.getLocation()) <= 2){
                     WalkerEngine.getInstance().hoverMinimap(hoverDetails.getDestination());
                 }
             }
             return WaitFor.Return.IGNORE;
         });
         if (strongholdDoor){
-            Web.methods.web.sleep(StdRandom.uniform(800, 1200));
+            //Web.methods.web.sleep(StdRandom.uniform(800, 1200));
         }
         return true;
     }
@@ -554,7 +554,7 @@ public class PathObjectHandler implements Loggable {
     private static boolean handleTrapDoor(RSObject object){
         if (getActions(object).contains("Open")){
             if (!InteractionHelper.click(object, "Open", () -> {
-                RSObject[] objects = new RSObject[]{Web.methods.objects.getNearest(Filters.Objects.actionsContains("Climb-down").combine(Filters.Objects.inArea(new RSArea(object, 2)), true))};
+                RSObject[] objects = new RSObject[]{Web.methods.objects.getNearest(Filters.Objects.actionsContains("Climb-down").combine(Filters.Objects.inArea(new RSArea(object.getLocation(), 2)), true))};
                 if (objects.length > 0 && getActions(objects[0]).contains("Climb-down")){
                     return WaitFor.Return.SUCCESS;
                 }
@@ -562,7 +562,7 @@ public class PathObjectHandler implements Loggable {
             })){
                 return false;
             } else {
-                RSObject[] objects = new RSObject[] {Web.methods.objects.getNearest(Filters.Objects.actionsContains("Climb-down").combine(Filters.Objects.inArea(new RSArea(object, 2)), true))};
+                RSObject[] objects = new RSObject[] {Web.methods.objects.getNearest(Filters.Objects.actionsContains("Climb-down").combine(Filters.Objects.inArea(new RSArea(object.getLocation(), 2)), true))};
                 return objects.length > 0 && handleTrapDoor(objects[0]);
             }
         }

@@ -1,7 +1,7 @@
 package daxapi.walkerengine.navigationutils.fairyring.letters;
 
 import daxapi.walkerengine.navigationutils.fairyring.FairyRing;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.util.Timer;
 import net.runelite.osrsbb.wrappers.RSWidget;

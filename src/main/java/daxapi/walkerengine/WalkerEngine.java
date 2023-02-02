@@ -14,7 +14,7 @@ import daxapi.walkerengine.navigationutils.NavigationSpecialCase;
 import daxapi.walkerengine.navigationutils.ShipUtils;
 import daxapi.walkerengine.realtimecollision.CollisionDataCollector;
 import daxapi.walkerengine.realtimecollision.RealTimeCollisionTile;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;
 

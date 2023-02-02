@@ -2,8 +2,8 @@ package daxapi.walker.utils.path;
 
 import daxapi.walkerengine.localpathfinding.AStarNode;
 import daxapi.walkerengine.localpathfinding.Reachable;
-import net.runelite.osrsbb.methods.Calculations;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Calculations;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSCharacter;
 import net.runelite.osrsbb.wrappers.common.Positionable;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;

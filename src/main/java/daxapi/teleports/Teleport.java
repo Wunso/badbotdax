@@ -10,7 +10,7 @@ import daxapi.teleports.teleport_utils.TeleportConstants;
 import daxapi.teleports.teleport_utils.TeleportLimit;
 import daxapi.teleports.teleport_utils.TeleportScrolls;
 import net.runelite.osrsbb.internal.globvals.enums.InterfaceTab;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.Timer;
 import net.runelite.osrsbb.wrappers.RSItem;
 import net.runelite.osrsbb.wrappers.RSWidget;

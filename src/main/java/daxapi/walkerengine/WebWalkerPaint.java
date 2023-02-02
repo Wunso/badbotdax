@@ -3,7 +3,7 @@ package daxapi.walkerengine;
 import daxapi.shared.NodeInfo;
 import daxapi.walkerengine.localpathfinding.PathAnalyzer;
 import daxapi.walkerengine.realtimecollision.RealTimeCollisionTile;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;
 
 import java.awt.*;

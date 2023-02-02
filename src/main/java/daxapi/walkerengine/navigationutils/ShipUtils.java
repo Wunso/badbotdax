@@ -3,7 +3,7 @@ package daxapi.walkerengine.navigationutils;
 import daxapi.Filters;
 import daxapi.walkerengine.WaitFor;
 import daxapi.walkerengine.interactionhandling.InteractionHelper;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.RSArea;
 import net.runelite.osrsbb.wrappers.RSObject;

@@ -3,7 +3,7 @@ package daxapi.walkerengine.interactionhandling;
 import daxapi.shared.helpers.InterfaceHelper;
 import daxapi.walkerengine.Loggable;
 import daxapi.walkerengine.WaitFor;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSWidget;
 
 import java.util.Arrays;

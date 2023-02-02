@@ -1,7 +1,7 @@
 package daxapi;
 
 import net.runelite.osrsbb.internal.wrappers.Filter;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.*;
 import net.runelite.osrsbb.wrappers.common.Positionable;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;

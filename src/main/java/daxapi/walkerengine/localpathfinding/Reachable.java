@@ -2,7 +2,7 @@ package daxapi.walkerengine.localpathfinding;
 
 
 import daxapi.shared.helpers.BankHelper;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.common.Positionable;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;
 

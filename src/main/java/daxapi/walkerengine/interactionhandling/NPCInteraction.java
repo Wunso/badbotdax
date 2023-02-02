@@ -5,7 +5,7 @@ import daxapi.walkerengine.Loggable;
 import daxapi.walkerengine.WaitFor;
 import net.runelite.api.NPC;
 import net.runelite.osrsbb.internal.wrappers.Filter;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.RSCharacter;
 import net.runelite.osrsbb.wrappers.RSNPC;

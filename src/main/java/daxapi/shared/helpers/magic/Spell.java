@@ -2,7 +2,7 @@ package daxapi.shared.helpers.magic;
 
 import daxapi.shared.Pair;
 import net.runelite.api.Skill;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 
 
 public enum  Spell implements Validatable  {

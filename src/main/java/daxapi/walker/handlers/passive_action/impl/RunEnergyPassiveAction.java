@@ -2,7 +2,7 @@ package daxapi.walker.handlers.passive_action.impl;
 
 import daxapi.walker.handlers.passive_action.PassiveAction;
 import daxapi.walker.models.enums.ActionResult;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 
 public class RunEnergyPassiveAction implements PassiveAction {

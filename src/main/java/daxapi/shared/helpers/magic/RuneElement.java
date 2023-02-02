@@ -3,7 +3,7 @@ package daxapi.shared.helpers.magic;
 
 import net.runelite.cache.definitions.ItemDefinition;
 import net.runelite.osrsbb.internal.wrappers.Filter;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSItem;
 
 import java.util.Arrays;

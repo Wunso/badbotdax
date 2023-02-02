@@ -9,9 +9,9 @@ import net.runelite.api.Point;
 import net.runelite.api.coords.LocalPoint;
 import net.runelite.cache.definitions.ItemDefinition;
 import net.runelite.cache.definitions.ObjectDefinition;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.internal.wrappers.Filter;
-import net.runelite.osrsbb.methods.Calculations;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Calculations;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.*;
 import net.runelite.osrsbb.wrappers.common.Clickable;
@@ -68,6 +68,10 @@ public class AccurateMouse {
         return action(clickable, false, clickActions);
     }
 
+    public static void testMenuActionClick(Point point) {
+        Web.methods.mouse.testMenuActionClick(point);
+    }
+
     public static boolean hover(Clickable clickable, String... clickActions) {
         return action(clickable, true, clickActions);
     }
@@ -88,7 +92,7 @@ public class AccurateMouse {
                 return false;
             }
 
-            AccurateMouse.click(point);
+            AccurateMouse.testMenuActionClick(point);
 
 
             WalkerTile newDestination = WaitFor.getValue(250, () -> {
@@ -179,7 +183,7 @@ public class AccurateMouse {
                 continue;
             }
             Web.methods.mouse.move(point);
-            Web.methods.web.sleep(StdRandom.uniform(20, 30));
+            //Web.methods.web.sleep(StdRandom.uniform(20, 30));
             return isHoveringScreenTileWalkHere(destination);
         }
         ;

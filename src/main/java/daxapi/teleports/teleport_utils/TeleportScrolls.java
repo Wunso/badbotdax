@@ -1,7 +1,7 @@
 package daxapi.teleports.teleport_utils;
 
 import daxapi.shared.helpers.magic.Validatable;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.Timer;
 import net.runelite.osrsbb.wrappers.RSItem;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;

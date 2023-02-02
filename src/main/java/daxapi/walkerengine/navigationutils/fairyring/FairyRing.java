@@ -6,7 +6,7 @@ import daxapi.walkerengine.interactionhandling.InteractionHelper;
 import daxapi.walkerengine.navigationutils.fairyring.letters.FirstLetter;
 import daxapi.walkerengine.navigationutils.fairyring.letters.SecondLetter;
 import daxapi.walkerengine.navigationutils.fairyring.letters.ThirdLetter;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.Timer;
 import net.runelite.osrsbb.wrappers.RSObject;
 import net.runelite.osrsbb.wrappers.RSWidget;

@@ -1,6 +1,6 @@
 package daxapi.shared.helpers.magic;
 
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 
 import java.util.Arrays;
 

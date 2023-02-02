@@ -4,8 +4,8 @@ import daxapi.shared.helpers.WorldHelper;
 import daxapi.shared.jsonSimple.JSONObject;
 import daxapi.shared.jsonSimple.JSONValue;
 import net.runelite.api.Skill;
-import net.runelite.osrsbb.methods.Skills;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Skills;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSItem;
 import net.runelite.osrsbb.wrappers.RSPlayer;
 

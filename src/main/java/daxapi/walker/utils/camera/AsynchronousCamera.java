@@ -1,8 +1,8 @@
 package daxapi.walker.utils.camera;
 
 
-import net.runelite.osrsbb.methods.Camera;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Camera;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.common.Positionable;
 

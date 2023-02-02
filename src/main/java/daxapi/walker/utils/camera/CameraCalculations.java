@@ -1,7 +1,7 @@
 package daxapi.walker.utils.camera;
 
 
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSCharacter;
 import net.runelite.osrsbb.wrappers.common.Positionable;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;

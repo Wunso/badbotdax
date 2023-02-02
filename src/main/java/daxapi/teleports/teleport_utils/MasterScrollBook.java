@@ -1,6 +1,6 @@
 package daxapi.teleports.teleport_utils;
 
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.util.Timer;
 import net.runelite.osrsbb.wrappers.RSItem;

@@ -4,7 +4,7 @@ import daxapi.Filters;
 import daxapi.walkerengine.WaitFor;
 import daxapi.walkerengine.interactionhandling.InteractionHelper;
 import net.runelite.osrsbb.internal.wrappers.Filter;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSObject;
 import net.runelite.osrsbb.wrappers.common.Positionable;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;

@@ -4,7 +4,7 @@ package daxapi.walker.utils.camera;
 import daxapi.walker.utils.AccurateMouse;
 import daxapi.walker.utils.movement.WalkingQueue;
 import daxapi.walkerengine.WaitFor;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.RSCharacter;
 import net.runelite.osrsbb.wrappers.common.Positionable;

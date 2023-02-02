@@ -1,6 +1,6 @@
 package daxapi.teleports.teleport_utils;
 
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 
 public class TeleportConstants {
 

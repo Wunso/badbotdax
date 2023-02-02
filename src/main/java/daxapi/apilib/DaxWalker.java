@@ -8,7 +8,7 @@ import daxapi.walkerengine.WaitFor;
 import daxapi.walkerengine.WalkerEngine;
 import daxapi.walkerengine.WalkingCondition;
 import daxapi.walkerengine.navigationutils.ShipUtils;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.common.Positionable;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;
 

@@ -11,7 +11,7 @@ import daxapi.walker.models.enums.MoveActionResult;
 import daxapi.walker.models.enums.Situation;
 import daxapi.walker.utils.path.DaxPathFinder;
 import daxapi.walker.utils.path.PathUtils;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;
 
 import java.util.ArrayList;

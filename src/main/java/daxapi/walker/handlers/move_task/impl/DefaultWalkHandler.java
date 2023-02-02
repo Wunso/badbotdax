@@ -6,7 +6,7 @@ import daxapi.walker.models.MoveTask;
 import daxapi.walker.models.enums.MoveActionResult;
 import daxapi.walker.utils.AccurateMouse;
 import daxapi.walker.utils.path.DaxPathFinder;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 
 import java.util.List;

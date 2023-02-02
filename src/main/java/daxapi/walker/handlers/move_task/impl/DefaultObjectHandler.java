@@ -11,7 +11,7 @@ import daxapi.walker.utils.TribotUtil;
 import daxapi.walker.utils.camera.DaxCamera;
 import daxapi.walker.utils.path.DaxPathFinder;
 import net.runelite.cache.definitions.ObjectDefinition;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSObject;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;
 

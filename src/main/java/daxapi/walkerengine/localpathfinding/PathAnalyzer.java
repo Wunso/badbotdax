@@ -4,7 +4,7 @@ import daxapi.shared.PathFindingNode;
 import daxapi.walkerengine.bfs.BFS;
 import daxapi.walkerengine.realtimecollision.CollisionDataCollector;
 import daxapi.walkerengine.realtimecollision.RealTimeCollisionTile;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;
 
 import java.util.List;

@@ -6,7 +6,7 @@ import daxapi.walkerengine.Loggable;
 import daxapi.walkerengine.WaitFor;
 import daxapi.walkerengine.interactionhandling.InteractionHelper;
 import daxapi.walkerengine.interactionhandling.NPCInteraction;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.wrappers.RSArea;
 import net.runelite.osrsbb.wrappers.RSWidget;
 import net.runelite.osrsbb.wrappers.subwrap.WalkerTile;

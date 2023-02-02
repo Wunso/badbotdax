@@ -13,7 +13,7 @@ import daxapi.walkerengine.navigationutils.fairyring.FairyRing;
 import net.runelite.api.Skill;
 import net.runelite.cache.definitions.ObjectDefinition;
 import net.runelite.osrsbb.internal.wrappers.Filter;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.StdRandom;
 import net.runelite.osrsbb.wrappers.RSItem;
 import net.runelite.osrsbb.wrappers.RSNPC;

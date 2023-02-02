@@ -6,7 +6,7 @@ import daxapi.apilib.models.Period;
 import daxapi.apilib.models.UserHighScore;
 import daxapi.apilib.utils.DaxTrackerProperty;
 import daxapi.walkerengine.Loggable;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.Timer;
 import net.runelite.osrsbb.wrappers.RSPlayer;
 

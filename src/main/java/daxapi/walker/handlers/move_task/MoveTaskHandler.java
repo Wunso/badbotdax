@@ -6,7 +6,7 @@ import daxapi.walker.models.WaitCondition;
 import daxapi.walker.models.enums.ActionResult;
 import daxapi.walker.models.enums.MoveActionResult;
 import daxapi.walkerengine.WaitFor;
-import net.runelite.osrsbb.methods.Web;
+import net.runelite.osrsbb.api.Web;
 import net.runelite.osrsbb.util.Timer;
 
 import java.util.ArrayList;
