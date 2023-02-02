@@ -1,2 +1,4 @@
 rootProject.name = 'badbotdax'
+include ':badbot'
+project(':badbot').projectDir = new File('../badbot')
 

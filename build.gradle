@@ -6,6 +6,13 @@ plugins {
 group 'com.github.Wunso'
 version '0.0.1'
 
+java {
+    toolchain {
+        targetCompatibility = JavaVersion.VERSION_11
+        sourceCompatibility = JavaVersion.VERSION_11
+    }
+}
+
 repositories {
     mavenLocal()
     maven { url "https://repo.runelite.net" }
@@ -59,7 +66,8 @@ dependencies {
     }
 
     implementation group: 'net.sf.jopt-simple', name:'jopt-simple', version: '5.0.4'
-    implementation 'com.github.Wunso:badbot:e6b588d7e5'
+    //implementation 'com.github.Wunso:badbot:e6b588d7e5'
+    implementation project(":badbot")
 }
 
 tasks.withType(JavaCompile) {
